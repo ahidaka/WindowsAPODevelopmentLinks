@@ -4,6 +4,24 @@ Windows APO Development Links
 
 Windows APO ドライバー 開発者向けリンク集
 
+### Windows 11 APO 開発セミナー 演習用ダウンロード
+
+- SysVAD
+
+  https://github.com/ahidaka/SysVAD
+
+- InterAPO_PropPage
+
+  https://github.com/ahidaka/InterAPO_PropPage
+
+- ActiveRender
+
+  https://github.com/devdrv/ActiveRender
+
+- InterAPO 署名済ドライバーパッケージ
+
+  https://github.com/devdrv/Windows-driver-samples/tree/IFDev3/audio/sysvad/APO/InterAPO/driver
+
 ### Windows 11 のドライバーの変更点
 
 - Windows 11 21h2
@@ -110,6 +128,14 @@ Windows APO ドライバー 開発者向けリンク集
 
   - https://sourceforge.net/projects/equalizerapo/
 
+### PropPage
+
+コントロールパネルのダイアログデバッグ時のコマンド
+
+```
+rundll32.exe shell32.dll,Control_RunDLL mmsys.cpl
+```
+
 ### INF ファイルの概要
 
 - https://learn.microsoft.com/ja-jp/windows-hardware/drivers/install/overview-of-inf-files
@@ -131,4 +157,3 @@ Windows APO ドライバー 開発者向けリンク集
 - Windows ハードウェアのパートナー センター
 
   https://learn.microsoft.com/ja-jp/windows-hardware/drivers/dashboard/
-s
