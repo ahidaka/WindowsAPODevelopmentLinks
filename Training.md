@@ -36,6 +36,16 @@ DelayAPO.dll, PropPageExt.dll, SwapAPO.dll のコピーが必要。
 
 ![画面](va-4.png)
 
+
+#### OCXを登録
+
+```sh
+Regsvr32 DelayAPO.dll
+Regsvr32 SwapAPO.dll
+Regsvr32 PropPageExt.dll
+```
+<br/>
+
 #### 操作前のレジストリ
 
 ![画面](va-5.png)
