@@ -22,6 +22,11 @@ Windows APO ドライバー 開発者向けリンク集
 
   https://github.com/devdrv/Windows-driver-samples/tree/IFDev3/audio/sysvad/APO/InterAPO/driver
 
+<br/>
+
+[**Windows 11 APO 開発セミナー 演習 補足情報**](Training.md)
+<br/>
+
 ### Windows 11 のドライバーの変更点
 
 - Windows 11 21h2
