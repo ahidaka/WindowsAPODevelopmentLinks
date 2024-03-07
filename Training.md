@@ -51,7 +51,7 @@ Regsvr32 PropPageExt.dll
 ![画面](va-5.png)
 <br/>
 
-#### レジストリの操作（）
+#### レジストリの操作（APO 登録用）
 
 APOを登録するためのレジストリを編集します。 RegEditを開き、ActiveRenderコマンドで確認しておいた、 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio 以下のデバイスGUID以下の「FxProperties」を参照して次の操作します。
 
@@ -97,4 +97,71 @@ APOを登録するためのレジストリを編集します。 RegEditを開き
 を設定します。無い場合は、値をREG_MULTI_SZ型で作成します。
 
 REG_MULTI_SZ値は改行コードで区切ります。
+<br/>
 
+### 6. WPP トレースによるデバッグ 演習
+
+#### レジストリの操作（APO 登録用）
+
+##### 古い値の削除
+
+    {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},'X'
+
+##### InterAPO Class Interface値登録
+
+    {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},3
+
+に
+
+    {A0AA1C9B-B09F-4AE4-90E0-77C8EDD977B2}
+
+をREG_SZ型で設定
+
+    {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},5
+
+に
+
+    {01A74FEF-9251-498B-9668-4FDF50261465}
+
+をREG_SZ型で設定
+
+    {d04e05a6-594b-4fb6-a80d-01af5eed7d1d},6
+
+に
+
+    {2CB5CD90-6D7B-4ABC-AB85-8CB066C849A2}
+
+をREG_SZ型で設定
+
+
+#### 作成するレジストリのプロパティキーと値（動作パラメーター）
+
+    {A44531EF-5377-4944-AE15-53789A9629C7},6
+に 1
+
+    {A44531EF-5377-4944-AE15-53789A9629C7},7
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},0
+に 10
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},1
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},2
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},3
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},4
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},5
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},6
+に 0
+
+    {0F2212E5-3612-459C-BE43-1FF0E576786A},7
+に 0
