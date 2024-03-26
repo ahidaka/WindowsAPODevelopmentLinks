@@ -37,7 +37,7 @@ Windows APO ドライバー 開発者向けリンク集
 
   https://learn.microsoft.com/windows-hardware/drivers/driver-changes-for-windows-11-version-22h2
 
-- Windows 11 23J2
+- Windows 11 23H2
 
   https://learn.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development
 
